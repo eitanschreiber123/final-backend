@@ -17,7 +17,7 @@ const startServer = async () => {
 
   server.applyMiddleware({ app });
 
-  await mongoose.connect("mongodb://my_user:my_pwd@18.221.237.233:27017/dyner", {
+  await mongoose.connect("mongodb://my_user:my_pwd@18.118.82.1:25017/dyner", {
     useNewUrlParser: true
   });
 
